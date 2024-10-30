@@ -73,3 +73,10 @@ h1 {
     font-size: 10vh;
     font-size: 5vw;
 }
+
+h1:hover {
+    color: rgb(0, 4, 255);
+    cursor: crosshair;
+    font-size: 11vh;
+    font-size: 6vw;
+}
