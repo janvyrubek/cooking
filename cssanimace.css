@@ -1,4 +1,29 @@
 .nastaveni {
-    width: 200px;
+    width: 220px;
     height: 145px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+  
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ddd;
+    border: 2px solid #333;
+    overflow: hidden;
+}
+  
+#moving-img {
+    position: absolute;
+    width: 100px; 
+    height: 100px;
 }
